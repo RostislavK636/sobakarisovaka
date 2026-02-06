@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Петербург сквозь года с Владимиром Заруцким</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+      <div class="container-fluid navbar-container">
+        <a class="navbar-brand" href="#">
+          <img src="img/navbar/navbar.png" alt="Logo" height="50" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">О чем курс</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tariffs">Записаться на курс</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+          <div class="navbar-social-mobile">
+            <a
+              href="https://t.me/your_channel"
+              class="social-link"
+              target="_blank">
+              <img src="img/navbar/tg.png" alt="Telegram" height="30" />
+            </a>
+            <a
+              href="https://vk.com/your_profile"
+              class="social-link"
+              target="_blank">
+              <img src="img/navbar/vk.png" alt="VK" height="30" />
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar-social navbar-social-desktop">
+          <a
+            href="https://t.me/your_channel"
+            class="social-link"
+            target="_blank">
+            <img src="img/navbar/tg.png" alt="Telegram" height="30" />
+          </a>
+          <a
+            href="https://vk.com/your_profile"
+            class="social-link"
+            target="_blank">
+            <img src="img/navbar/vk.png" alt="VK" height="30" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container-fluid hero-container">
+          <div class="row align-items-center h-100">
+            <div class="col-lg-6 hero-content">
+              <h1 class="hero-title">Петербург сквозь года</h1>
+              <p class="hero-subtitle">С ВЛАДИМИРОМ ЗАРУЦКИМ</p>
+
+              <ul class="hero-list">
+                <li>
+                  Нарисуйте <span>12 пейзажей</span>: от ретро Петербурга до
+                  сегодняшних дней
+                </li>
+                <li>
+                  Изучите
+                  <span>способы передачи особенностей архитектуры</span> с
+                  помощью акварели
+                </li>
+                <li>
+                  Научитесь передавать
+                  <span>художественные образы и замыслы</span>
+                </li>
+              </ul>
+
+              <button
+                class="btn-gradient"
+                onclick="
+                  document
+                    .getElementById('tariffs')
+                    .scrollIntoView({ behavior: 'smooth' })
+                ">
+                Узнать подробности
+              </button>
+            </div>
+
+            <div
+              class="col-lg-6 hero-image d-flex justify-content-center align-items-center">
+              <img
+                src="img/img-2x-scale-2_00x.png"
+                alt="Course preview"
+                class="img-fluid" />
+            </div>
+          </div>
+
+          <div class="row justify-content-center hero-cards">
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+              <div class="hero-card">
+                <span class="hero-card-title">Материал:</span>
+                <span class="hero-card-text">акварель</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+              <div class="hero-card">
+                <span class="hero-card-title">Количество картин:</span>
+                <span class="hero-card-text">12</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+              <div class="hero-card">
+                <span class="hero-card-title">Продолжительность курса:</span>
+                <span class="hero-card-text">20 часов</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
+              <div class="hero-card">
+                <span class="hero-card-title">Доступ:</span>
+                <span class="hero-card-text">бессрочный</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-course py-5">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 about-content">
+                <h2 class="about-title">Для кого будет полезен курс</h2>
+                <p class="about-text">
+                  На моем курсе «Петербург сквозь года с Владимиром Заруцким» вы
+                  научитесь рисовать акварелью городские пейзажи. Этот курс для
+                  тех, кто хочет научиться или усовершенствовать свои навыки в
+                  акварели. Уверен, вам понравится!
+                </p>
+              </div>
+
+              <div
+                class="col-lg-6 about-image d-flex justify-content-center align-items-center">
+                <img
+                  src="img/bg/img-2x-scale-2_00x.jpg"
+                  alt="Course instructor"
+                  class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="materials py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="material-card">
+                <img src="img/icon/1.png" alt="Краски" class="material-icon" />
+                <h3 class="material-title">Краски</h3>
+                <button
+                  class="btn-material"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#paintsList">
+                  Список красок
+                </button>
+                <div id="paintsList" class="collapse material-list mt-3">
+                  <ul>
+                    <li>Кобальт лазурно-голубой</li>
+                    <li>Горизонт синий</li>
+                    <li>Кобальт бирюзовый</li>
+                    <li>Церулеум</li>
+                    <li>Сиена натуральная</li>
+                    <li>Охра красная</li>
+                    <li>Сиена жженая</li>
+                    <li>Пиррол оранжевый</li>
+                    <li>Кадмий красный светлый</li>
+                    <li>Опера</li>
+                    <li>Кобальт</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="material-card">
+                <img src="img/icon/2.png" alt="Кисти" class="material-icon" />
+                <h3 class="material-title">Кисти</h3>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="material-card">
+                <img src="img/icon/3.png" alt="Бумага" class="material-icon" />
+                <h3 class="material-title">Бумага</h3>
+                <p class="material-description">
+                  300гр/м, хлопок Saunders Waterford, Палаццо
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="material-card">
+                <img
+                  src="img/icon/4.png"
+                  alt="Карандаш"
+                  class="material-icon" />
+                <h3 class="material-title">Карандаш 2В, 3В</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="materials-footer">
+            <p>
+              Всё это рекомендации, не обязательно использовать то же самое!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tariffs" class="tariffs-section py-5">
+        <div class="container">
+          <h2 class="tariffs-heading text-center mb-5">ТАРИФЫ</h2>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="tariff-card">
+                <div class="tariff-header">
+                  <h3>РИСУЮ САМ</h3>
+                </div>
+                <div class="tariff-body">
+                  <img src="img/tarif.png" alt="Тариф" class="tariff-image" />
+                  <ul class="tariff-features">
+                    <li>
+                      12 пейзажей: от ретро Петербурга до сегодняшних дней
+                    </li>
+                    <li>
+                      17 уроков : теория + практика + развивающие упражнения
+                    </li>
+                    <li style="text-decoration: line-through">
+                      Личная часовая онлайн-консультация с экспертом курса
+                    </li>
+                  </ul>
+                  <div class="tariff-pricing">
+                    <span class="price-old" data-rub="7990">7 990 ₽</span>
+                    <span class="price-current" data-rub="4990">4 990 ₽</span>
+                  </div>
+                  <button class="btn-currency" onclick="toggleCurrency(this)">
+                    $
+                  </button>
+                  <button class="btn-tariff">Принять участие</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="tariff-card">
+                <div class="tariff-header">
+                  <h3>С ПОДДЕРЖКОЙ</h3>
+                </div>
+                <div class="tariff-body">
+                  <img src="img/tarif2.png" alt="Тариф" class="tariff-image" />
+                  <ul class="tariff-features">
+                    <li>
+                      12 пейзажей: от ретро Петербурга до сегодняшних дней
+                    </li>
+                    <li>
+                      17 уроков : теория + практика + развивающие упражнения
+                    </li>
+                    <li style="text-decoration: line-through">
+                      Личная часовая онлайн-консультация с экспертом курса
+                    </li>
+                    <li class="bonus">
+                      🎁 +1000 бонусных рублей! Можно потратить при покупке
+                      курса на следующем марафоне. Сгорают через 3 месяца
+                    </li>
+                  </ul>
+                  <div class="tariff-pricing">
+                    <span class="price-old" data-rub="9990">9 990 ₽</span>
+                    <span class="price-current" data-rub="5990">5 990 ₽</span>
+                  </div>
+                  <div class="div-btn-currency">
+                    <button class="btn-currency" onclick="toggleCurrency(this)">
+                      $
+                    </button>
+                  </div>
+                  <button class="btn-tariff">Принять участие</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="tariff-card">
+                <div class="tariff-header">
+                  <h3>VIP</h3>
+                </div>
+                <div class="tariff-body">
+                  <img src="img/tarif3.png" alt="Тариф" class="tariff-image" />
+                  <ul class="tariff-features">
+                    <li>
+                      12 пейзажей: от ретро Петербурга до сегодняшних дней
+                    </li>
+                    <li>
+                      17 уроков : теория + практика + развивающие упражнения
+                    </li>
+                    <li>
+                      Личная часовая онлайн-консультация с экспертом курса
+                    </li>
+                  </ul>
+                  <div class="tariff-pricing">
+                    <span class="price-old" data-rub="22980">22 980 ₽</span>
+                    <span class="price-current" data-rub="15990">15 990 ₽</span>
+                  </div>
+                  <div class="div-btn-currency">
+                    <button class="btn-currency" onclick="toggleCurrency(this)">
+                      $
+                    </button>
+                  </div>
+                  <button class="btn-tariff">Принять участие</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section py-5">
+        <div class="container">
+          <h2 class="faq-heading text-center mb-5">Частые вопросы</h2>
+
+          <div class="faq-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+              <div
+                class="faq-question"
+                data-toggle="collapse"
+                data-target="#faq1">
+                <div class="question-text">
+                  Я совсем не умею рисовать. Стоит ли мне идти на курс?
+                  <span class="faq-icon">❯</span>
+                </div>
+              </div>
+              <div id="faq1" class="collapse faq-answer">
+                <p>
+                  Конечно стоит! Курс специально построен так что сначала идут
+                  простые картины а потом более сложные, так что вы успеете
+                  влиться в процесс и достичь высоких результатов!
+                </p>
+                <p>
+                  Для опытных художников курс также будет полезен. Вы сможете
+                  ещё больше отработать технику, а также увеличить свою
+                  насмотренность.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <div
+                class="faq-question"
+                data-toggle="collapse"
+                data-target="#faq2">
+                <div class="question-text">
+                  Как устроена обратная связь?
+                  <span class="faq-icon">❯</span>
+                </div>
+              </div>
+              <div id="faq2" class="collapse faq-answer">
+                <p>
+                  В конце урока вы выложите фотографию своей работы. У
+                  преподавателя будет возможность оставить к вашей работе
+                  текстовый, графический (пометки на рисунке), а также
+                  аудио-комментарий.
+                </p>
+                <p>
+                  В нижней части каждого урока будет блок комментариев, где
+                  можно задавать любые вопросы по обучению.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <p>Политика приватности</p>
+          <p>
+            По всем вопросам вы можете писать в службу поддержки:
+            <a href="mailto:admin@sobakarisovaka.ru">admin@sobakarisovaka.ru</a>
+          </p>
+          <p>© 2025, ИП Косенко Андрей Владимирович, ОГРН 308614728400011</p>
+        </div>
+      </footer>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
+    <script>
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", function () {
+          const icon = this.querySelector(".faq-icon");
+          setTimeout(() => {
+            if (this.getAttribute("aria-expanded") === "true") {
+              icon.style.transform = "rotate(90deg)";
+            } else {
+              icon.style.transform = "rotate(0deg)";
+            }
+          }, 10);
+        });
+      });
+
+      function toggleCurrency(button) {
+        const card = button.closest(".tariff-card");
+        const priceOld = card.querySelector(".price-old");
+        const priceCurrent = card.querySelector(".price-current");
+        const isRubles = button.textContent === "$";
+        const exchangeRate = 70;
+
+        if (isRubles) {
+          const oldRub = parseInt(priceOld.getAttribute("data-rub"));
+          const currentRub = parseInt(priceCurrent.getAttribute("data-rub"));
+
+          const oldUsd = Math.round(oldRub / exchangeRate);
+          const currentUsd = Math.round(currentRub / exchangeRate);
+
+          priceOld.textContent = "$" + oldUsd;
+          priceCurrent.textContent = "$" + currentUsd;
+          button.textContent = "₽";
+          button.classList.add("active");
+        } else {
+          const oldRub = priceOld.getAttribute("data-rub");
+          const currentRub = priceCurrent.getAttribute("data-rub");
+
+          priceOld.textContent =
+            oldRub.replace(/(\d)(?=(\d{3})+$)/g, "$1 ") + " ₽";
+          priceCurrent.textContent =
+            currentRub.replace(/(\d)(?=(\d{3})+$)/g, "$1 ") + " ₽";
+          button.textContent = "$";
+          button.classList.remove("active");
+        }
+      }
+    </script>
+  </body>
+</html>
